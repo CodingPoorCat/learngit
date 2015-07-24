@@ -1,0 +1,366 @@
+img{
+	vertical-align:text-top;
+}
+li{
+	list-style: none;
+	float: left;
+
+}
+body{
+	margin: 0px;
+}
+/*顶部*/
+#top{
+	background-color:#f3f3f3;
+	height:27px;
+	width:1366px;
+	font-family:"Microsoft Yahei"; 
+
+
+}
+#top div{
+	color:#666666;
+	font-size:10px;
+	position: absolute;
+	width: 340px;
+	margin-left: 250px;
+	line-height: 25px;
+	line-height: 30px\9;
+	_margin-top: 5px;
+}
+#top div.right{
+	color:#666666;
+	font-size:10px;
+	position: absolute;
+	width:340px;
+	margin-left: 800px;
+	line-height: 25px;
+	line-height: 30px\9;
+	_margin-top: 5px;
+}
+#top span{
+	margin:5px
+}
+/*LOGO*/
+#icon{
+	background-color:#ffffff;
+	padding-left: 220px;
+	height: 97px;
+	width: 1000px;
+}
+#logo{
+	position: relative;
+	top: 15px;
+	width: 208px;
+	height: 49px;
+	border: 0px;
+
+
+}
+#register{
+	position: relative;
+	left: 140px;
+	width: 320px;
+	height: 65px;
+	top: 8px;
+	border: 0px; 
+
+}
+#shop_car{
+	background-color: #f3f3f3;
+	position: relative;
+	width: 170px;
+	height: 47px;
+	border: 0px;
+	left: 800px;
+	top: -40px;
+}
+#car_word{
+	position: relative;
+	left: 15px;
+	top: 12px;
+	font-size: 10px;
+
+}
+#car{
+	position: relative;
+	left: 18px;
+	top: 4px;
+
+}
+#number{
+	color: red;
+	font-weight: bold;
+	font-size: 14px;
+	position: relative;
+	left:8px;
+	top:0px;
+
+}
+/*菜单*/
+#menu{
+	background-color: #34363d;
+	height: 47px;
+	width: 1366px;
+	top:125px;
+	line-height: 15px;
+	_line-height: 45px;
+
+
+}
+#menu li{
+	color: white;
+	font-family: "Microsoft Yahei";
+}
+#menu ul{
+	position: absolute;
+	left: 150px;
+
+}
+#menu span{
+	margin: 30px;
+}
+img.icon{
+	width: 47px;
+	padding-left: 18px;
+	position: relative;
+	left:0px;
+	top:-12px;
+	_top:0px;
+
+}
+img.icon1{
+	width: 47px;
+	position: relative;
+	top: -16px;
+	_top:0px;
+
+}
+/*Four 正港退闪*/
+div.four{
+	margin-left: 200px;
+	width: 1000px;
+}
+div.one{
+	width: 1000px;
+	overflow: hidden;
+}
+div.four p{
+	font-family: "Microsoft Yahei";
+	color:#939397;
+	width: 108px;
+	height: 17px;
+	font-size: 13px;
+	margin-top: -5px;
+	margin-left: 13px;
+
+}
+div.four h3{
+	position: relative;
+	top: 15px;
+	
+}
+div.four span{
+	margin:42.5px;
+}
+/*foot*/
+
+#foot{
+	width: 1000px;
+	height: 250px;
+	padding-left: 200px;
+	clear: both;
+
+}
+hr.cu{
+	height:3px;
+	background-color:#666666;
+	position: relative;
+	top: -20px;
+	_top:0px;
+	width: 150px;
+	_width:160px;
+	left: -24px;
+	_left:-20px;
+
+}
+#phonenumber{
+	width: 200px;
+	height: 120px;
+	position: relative;
+	top: 25px;
+	left: 0px;
+	border-right-style: solid;
+	border-right-width: 2px;
+}
+p.time{
+	font-family: "Microsoft Yahei";
+	font-size: 14px;
+	position: relative;
+	top: -30px;
+	_top:-20px;
+
+}
+h2.phone{
+	position: relative;
+	top: 0px;
+	_top:20px;
+}
+#about{
+	position: relative;
+	width: 110px;
+	height: 120px;
+	margin:0px;
+	top: 25px;
+	border-right-style: solid;
+	border-right-width: 2px;
+
+}
+#aboutus{
+	position: relative;
+	width: 110px;
+	height: 120px;
+	margin:0px;
+	top: 25px;
+
+}
+
+h3{	position: relative;
+	left: 10px;
+	margin-top: 0px;
+	font-size: 20px\9;
+}
+#ad{
+	font-family: "Microsoft Yahei";
+	font-size: 14px;
+	position: relative;
+	top: -10px;
+	left: -30px;
+	width: 80px;
+	line-height: 20px;
+}
+#QRCode{
+	position: relative;
+	top: 25px;
+	left: 50px;
+}
+#QRCode p{
+	font-family: "Microsoft Yahei";
+	font-size: 10px;
+	background-color: #f3f3f3;
+	_width: 80px;
+	_margin-left: 5px;
+	margin-top: 5px;
+	margin-left: 5px\9;
+}
+/*底部*/
+
+#deep{
+	width: 1366px;
+	height: 100px;
+	font-size: 6px;
+	font-family: "Microsoft Yahei";
+	clear: both;
+
+}
+#deep span{
+	position: relative;
+	left: 550px;
+	top: 35px;
+	_font-size: 12px;
+	font-size: 12px\9;
+}
+
+/*晒单*/
+#show{
+	width: 820px;
+	height: 470px;
+	margin-left: 200px;
+	margin-top: 40px;
+}
+span.mybill{
+	font-family: "Microsoft Yahei";
+	margin-top: 20px;
+	font-weight: bold;
+}
+a.back{
+	display: block;
+	width: 50px;
+	height: 20px;
+	border:2px solid red;
+	background: white;
+	color: red;
+	text-align: center;
+	line-height: 23px;
+	font-family: "Microsoft Yahei";
+	font-size: 10px;
+	float: right;
+	_margin-top: -22px;
+	margin-right: 8px;
+}
+span.photos{
+	width: 350px;
+	height: 350px;
+	float: left;
+	border: 1.5px solid #dedede;
+	margin-top: 30px;
+
+}
+span.commnets{
+	width: 400px;
+	height: 420px;
+	margin-left: 50px;
+	margin-top: 10px;
+	_margin-top: 30px;
+	float: left;
+}
+h2.name{
+	text-align: left;
+}
+p.advice{
+	font-family: "Microsoft Yahei";
+	font-size: 13px;
+	font-weight: bold;
+}
+textarea.comment{
+	width: 400px;
+	height: 150px;
+	background:#f3f3f3;
+	font-family: "Microsoft Yahei";
+	color:#666666;
+	padding-top: 5px;
+	padding-left: 6px;
+	overflow-y:hidden;
+	border: 0px;
+	resize:none;
+}
+li.upload{
+	width: 60px;
+	height: 60px;
+	border: 2.5px solid #dedede;
+	text-align: center;
+	color: #dedede;
+	font-size: 48px;
+	margin-left: 16px;
+	margin-top: 10px;
+	margin-left: 15px\9;
+	margin-top: 3px\9;
+	_margin-left: 13px;
+	_margin-top:-15px;
+}
+a.commit{
+	display: block;
+	width: 100px;
+	height: 30px;
+	background: red;
+	color: white;
+	text-align: center;
+	line-height: 28px;
+	font-family: "Microsoft Yahei";
+	font-size: 15px;
+	font-weight: bold;
+	float: right;
+	margin-right: 12px;
+	_margin-right: 5px;
+
+}

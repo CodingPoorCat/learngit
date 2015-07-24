@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript">
+	function changecolor (argument) {
+		var el = document.getElementById(argument);
+		el.style.color='black';
+		el.style.background='#ffe457'
+	}
+	function returncolor(argument) {
+		var el=document.getElementById(argument);
+		el.style.color='black';
+		el.style.background='white';
+		// body...
+	}
+
+	
+
+</script>
+<link rel="stylesheet" type="text/css" href="css/我的地址.css"/>
+</head>
+
+<body>
+<!--顶端-->
+<div id="top">
+	<div>
+		欢迎来到自由购<span>|</span>
+		请登录<span>|</span>
+		免费注册<span>|</span>
+		<img src="images/phone.jpg" width=18px;height=18px;> 400 883 1023
+	</div>
+	<div class="right">
+		我的订单<span>|</span>
+		个人中心<span>|</span>
+		联系客服<span>|</span>
+		收藏本站<span>|</span>
+	<img class="question" src="images/question.png" width=20px;>帮助</div>
+</div>
+<!--LOGO层-->
+<div id="icon">
+
+	<a href="" >
+		<img id="logo" src="images/logo.jpg">
+	</a>
+
+	<a href="">
+		<img id="register" src="images/register.jpg">
+	</a>
+
+	<div id="shop_car">
+		<img id="car" src="images/car.jpg" >
+		<span id="car_word">去购物车结账</span>
+		<span id="number">?</span>
+		<span id="car_word">></span>
+		
+	</div>
+</div>
+<!--菜单层-->
+<div id="menu">
+	<ul>
+		<li><span>首页</span></li>
+		<li><span>必败港货</span></li>
+		<li><span>母婴用品</span></li>
+		<li><span>保健用品</span></li>
+		<li><span>直采食品</span></li>
+		<li><img class="icon" src="images/question1.jpg"></li>
+		<li>一分钟了解自由购<span></span></li>
+		<li><img class="icon1" src="images/100%.jpg"></li>
+		<li>港版正品<span></span></li>
+	</ul>
+	
+
+</div>
+<!--主体-->
+
+<ul class="manage">
+	<li id="i1" class="homelist" onmousemove="changecolor('i1');" onmouseout="returncolor('i1')">
+		个人中心
+	</li>
+
+	<li id="i2" class="list" onmousemove="changecolor('i2');" onmouseout="returncolor('i2')">
+		我的订单
+	</li>
+
+	<li id="i3" class="list" onmousemove="changecolor('i3');" onmouseout="returncolor('i3')">
+		我的优惠券
+	</li>
+
+	<li id="i4" class="list" onmousemove="changecolor('i4');" onmouseout="returncolor('i4')">
+		管理收货地址
+	</li>
+
+	<li id="i5" class="list" onmousemove="changecolor('i5');" onmouseout="returncolor('i5')">
+		售后管理
+	</li>
+</ul>
+<div id="adress">
+	<h1>我的地址</h1>
+	<span>
+		<p class="adressNo">共4条（最多保存10条）</p>
+		<a class="add">+新增收货地址</a>
+	</span>
+	<div class="myadress">
+		<table class="t_adress">
+			<tr class="first">
+				<td class="case">收货人</td>
+				<td class="where">收货地址</td>
+				<td class="case">邮编</td>
+				<td class="case">联系电话</td>
+				<td class="case" colspan="2">操作</td>
+			</tr>
+			<tr>
+				<td class="case1">邓兆来</td>
+				<td class="where1">广东省 广州市 海珠区 新港中路397号TIT创 意园创意东路01号(18库)鼎俊贸易</td>
+				<td class="case1">510510</td>
+				<td class="case1">13760886805</td>
+				<td class="case1">
+					<a class="Button">修改</a>
+					<a class="Button"> | </a>
+					<a class="Button">删除</a>
+				</td>
+				<td class="case1"><a class="reset">默认地址</a></td>
+			</tr>
+			<tr>
+				<td class="case1">什么鬼_haha</td>
+				<td class="where1">山西省 阳泉市 矿区 测试测试测试还是测试</td>
+				<td class="case1">510000</td>
+				<td class="case1">13900000000</td>
+				<td class="case1">
+					<a class="Button">修改</a>
+					<a class="Button"> | </a>
+					<a class="Button">删除</a>
+				</td>
+				<td class="case1"><a class="Button">设为默认地址</a></td>
+			</tr>
+			<tr>
+				<td class="case1">测试测试测试</td>
+				<td class="where1">北京市 北京市 东城区 测试测试</td>
+				<td class="case1">510000</td>
+				<td class="case1">13430378919</td>
+				<td class="case1">
+					<a class="Button">修改</a>
+					<a class="Button"> | </a>
+					<a class="Button">删除</a>
+				</td>
+				<td class="case1"><a class="Button">设为默认地址</a></td>
+			</tr>
+			<tr>
+				<td class="case1">邓先生</td>
+				<td class="where1">广东省 广州市 番禺区 城区大道301号尚东尚 筑A5栋403</td>
+				<td class="case1">510000</td>
+				<td class="case1">13430378919</td>
+				<td class="case1">
+					<a class="Button">修改</a>
+					<a class="Button"> | </a>
+					<a class="Button">删除</a>
+				</td>
+				<td class="case1"><a class="Button">设为默认地址</a></td>
+			</tr>
+			
+		</table>
+		
+	</div>
+	<div class="NewAdress">
+		<h4>新增收货地址</h4>
+		<div class="area">
+			<span class="left"><a class="need">* </a>所在地区</span>
+			<span class="right">
+				-省/直辖市-
+				<span class="fenge"></span>
+				▼&nbsp
+			</span>
+			<span class="right">
+				-市-
+				<span class="fenge"></span>
+				<span class="fenge"></span>
+				<span class="fenge"></span>
+				<span class="fenge"></span>
+				▼&nbsp
+			</span>
+			<span class="right">
+				-县/区-
+				<span class="fenge"></span>
+				<span class="fenge"></span>
+				<span class="fenge"></span>
+				▼&nbsp
+			</span>
+		</div>
+		<div class="areadetil">
+			<span class="left1"><a class="need">* </a>详细地址</span>
+			<textarea class="detil">无需重复填写省市区，小于75个字</textarea>
+
+			
+		</div>
+		<div class="stampNo">	
+			<span class="left2"><a class="need">* </a>邮政编码</span>
+			<textarea class="detil1"></textarea>
+		</div>
+		<div class="stampNo">	
+			<span class="left2"><a class="need">* </a>收货人姓名</span>
+			<textarea class="detil1">长度不得超过9个字</textarea>
+		</div>
+		<div class="stampNo">	
+			<span class="left2"><a class="need">* </a>手机号码</span>
+			<textarea class="detil1">请输入手机号码</textarea>
+		</div>
+		<a class="commit">立即付款</a>
+		
+	</div>
+
+	
+</div>
+
+<br>
+<br><br><br><br><br><br>
+
+<!--正港退闪-->
+<hr id="long"/>
+<div class="four">
+	<div class="one">
+		<li><img src="images/zheng.jpg"></li>
+		<li>
+			<h3 >100%自营正品</h3>
+			<p>官方自营 正品保障</p>
+		</li>
+		<li><span></span></li>
+		<li><img src="images/gang.jpg"></li>
+		<li>
+			<h3 >100%海外直采</h3>
+			<p>全球尖货 产地直采</p>
+		</li>
+		<li><span></span></li>
+		<li><img src="images/tui.jpg"></li>
+		<li>
+			<h3 >7天无忧退货</h3>
+			<p>国内退货 售后无忧</p>
+		</li>
+		<li><span></span></li>
+		<li><img src="images/shan.jpg"></li>
+		<li>
+			<h3 >全新海淘模式</h3>
+			<p>极速清关 政府监督</p>
+		</li>
+	</div>
+	
+</div>
+<div id="foot">
+	<hr/>
+	<ul>
+		<li id="phonenumber">
+			<h2 class="phone">400-883-1023</h2><hr class="cu"/>
+			<p class="time">周一至周五09:00-23:00</p>
+		</li>
+		<li id="about">
+			<h3>服务保障</h3>
+			<ul id="ad">自营正品</ul>
+			<ul id="ad">海外直邮</ul>
+			<ul id="ad">无忧退货</ul>
+		</li>
+		<li id="about">
+			<h3>新手指南</h3>
+			<ul id="ad">购物流程</ul>
+			<ul id="ad">支付方式</ul>
+			<ul id="ad">通关关税</ul>
+			<ul id="ad">常见问题</ul>
+			
+		</li>
+		<li id="about">
+			<h3>售后服务</h3>
+			<ul id="ad">退货政策</ul>
+			<ul id="ad">退货流程</ul>
+			<ul id="ad">退货说明</ul>
+			<ul id="ad">联系客服</ul>
+			
+		</li>
+		<li id="about">
+			<h3>物流配送</h3>
+			<ul id="ad">配送方式</ul>
+			<ul id="ad">运费计算</ul>
+			<ul id="ad">物流追踪</ul>			
+		</li>
+		<li id="aboutus">
+			<h3>关于我们</h3>
+			<ul id="ad">网站简介</ul>
+			<ul id="ad">联系我们</ul>
+			<ul id="ad">招商合作</ul>			
+		</li>
+		<li id="QRCode">
+			<img src="images/QRCode.jpg">
+			<p>自由购微信二维码</p>
+			
+		</li>
+	</ul>
+	
+		
+</div>
+
+<div id="deep">
+	<hr/>
+	<span>版权所有@飞购控股有限公司 www.freegou.com</span>
+	
+</div>
+</body>
+</html>

@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="css/订单详情.css"/>
+<script type="text/javascript">
+	function changecolor (argument) {
+		var el = document.getElementById(argument);
+		el.style.color='white';
+		el.style.background='red'
+	}
+	function returncolor(argument) {
+		var el=document.getElementById(argument);
+		el.style.color='#666666';
+		el.style.background='#f3f3f3';
+		// body...
+	}
+
+	
+
+</script>
+</head>
+
+<body>
+<!--顶端-->
+<div id="top">
+	<div>
+		欢迎来到自由购<span>|</span>
+		请登录<span>|</span>
+		免费注册<span>|</span>
+		<img src="images/phone.jpg" width=18px;height=18px;> 400 883 1023
+	</div>
+	<div class="right">
+		我的订单<span>|</span>
+		个人中心<span>|</span>
+		联系客服<span>|</span>
+		收藏本站<span>|</span>
+	<img class="question" src="images/question.png" width=20px;>帮助</div>
+</div>
+<!--LOGO层-->
+<div id="icon">
+
+	<a href="" >
+		<img id="logo" src="images/logo.jpg">
+	</a>
+
+	<a href="">
+		<img id="register" src="images/register.jpg">
+	</a>
+
+	<div id="shop_car">
+		<img id="car" src="images/car.jpg" >
+		<span id="car_word">去购物车结账</span>
+		<span id="number">?</span>
+		<span id="car_word">></span>
+		
+	</div>
+</div>
+<!--菜单层-->
+<div id="menu">
+	<ul>
+		<li><span>首页</span></li>
+		<li><span>必败港货</span></li>
+		<li><span>母婴用品</span></li>
+		<li><span>保健用品</span></li>
+		<li><span>直采食品</span></li>
+		<li><img class="icon" src="images/question1.jpg"></li>
+		<li>一分钟了解自由购<span></span></li>
+		<li><img class="icon1" src="images/100%.jpg"></li>
+		<li>港版正品<span></span></li>
+	</ul>
+	
+
+</div>
+<!--主体部分-->
+<div id="orderlist">
+	<h3>个人中心-订单详情</h3>
+	<!--当前状态-->
+	<div class="condition">
+		<span><img src="images/!.jpg"> 当前状态-等待买家付款</span>
+		<br>
+		<span class="countdown">还有</span><span class="deadline"> 1小时02分14秒</span>
+		<span class="countdown1">进行付款，逾期未支付订单，系统将自动取消</span>
+		<br>
+		<button id="b1" onmousemove="changecolor('b1');" onmouseout="returncolor('b1')">立即支付</button>
+		<button id="b2" onmousemove="changecolor('b2');" onmouseout="returncolor('b2')">取消订单</button>
+		
+	</div>
+	<!--订单信息-->
+	<div id="orderinfo">
+		<div class="info"><span id="dingdan">订单信息</span></div>
+		<div class="orderstyle">
+			<span class="infostyle">
+			收货地址：邓兆来 13760886875 广东省广州市海珠区新港中路397号TIT创意园创意东路01号18库 鼎俊贸易 510510
+			</span>
+		</div>
+		<hr class="light"/>
+
+		<div class="orderstyle">
+			<span class="infostyle">订单号：   201505281024ODER33670823
+				
+			</span>
+		</div>
+		<hr class="light"/>
+
+		<div class="orderstyle">
+			<span class="infostyle">支付金额：￥533.30</span>
+		</div>
+		<hr class="light"/>
+		
+		<div class="orderstyle">
+			<span class="infostyle">下单时间：2015-05-28 10:24:18 </span>
+		</div>
+		<hr class="light"/>
+	</div>
+	<!--物流信息-->
+	<div id="logistics">
+		<div class="info2">
+			<span id="dingdan">物流信息</span>
+		</div>
+
+		<div>
+			<p class="logistics">
+				2015-05-20 09:30:15  
+				<span class="fenge"></span>
+				您提交了订单，请等待系统确认
+			</p>
+		</div>
+		<div>
+			<p class="logistics">
+				2015-05-20 09:30:16  
+				<span class="fenge"></span>
+				您的订单已经进入广州15号库准备出库
+			</p>
+		</div>
+		<div>
+			<p class="logistics">
+				2015-05-20 10:15:57
+				<span class="fenge"></span>
+				您的订单已经拣货完成
+			</p>
+		</div>
+		<div>
+			<p class="logistics">
+				2015-05-20 11:14:10
+				<span class="fenge"></span>
+				您的订单已打包完毕
+			</p>
+		</div>
+		<div>
+			<p class="logistics">
+				2015-05-20 11:58:50
+				<span class="fenge"></span>
+				您的订单在［广州萝岗分拣中心］分拣完成
+			</p>
+		</div>
+		<div>
+			<p class="logistics">
+				2015-05-20 11:59:20
+				<span class="fenge"></span>   您的订单在［广州萝岗分拣中心］发货完成，准备送往［赤岗站］
+			</p>
+		</div>
+		<div>
+			<p class="logistics">
+				2015-05-20 14:51:09
+				<span class="fenge"></span>
+				您的订单在［赤岗站］验货完成，正在分配配送员
+			</p>
+		</div>
+		<div>
+			<p class="logistics">
+				2015-05-20 16:32:31
+				<span class="fenge"></span>   配送员［张卫理］已出发，联系电话［13318711235，感谢您的耐心等待］
+			</p>
+		</div>
+		<div>
+			<p class="logistics">
+				2015-05-20 17:34:43
+				<span class="fenge"></span>
+				订单已签收
+			</p>
+		</div>
+		<hr class="light" id="ie8"/>
+		<div class="logisticsNo">
+			<span>物流公司：EMS</span>
+			<span class="No">货运单号：</span>
+			<span class="deadline">9372356454</span>
+		</div>
+
+		
+	</div>
+	<!--商品信息-->
+	<div id="logistics">
+		<table>
+		<tr>
+			<td class="goods">商品信息</td>
+			<td class="goods_info">重量</td>
+			<td class="goods_info">售价</td>
+			<td class="goods_info">数量</td>
+			<td class="goods_info">优惠</td>
+		</tr>
+		</table>
+		<table class="info">
+		<tr>
+			<td class="goods1">
+				<img src="images/goods1.jpg">
+				 Cowala 咔哇熊高钙儿童成人学生全脂奶粉 1000g
+			</td>
+			<td class="goods_info1">1kg</td>
+			<td class="goods_info1">￥59.0</td>
+			<td class="goods_info1">3</td>
+			<td class="goods_info1"></td>
+		</tr>
+		</table>
+				<table class="info">
+		<tr>
+			<td class="goods1">
+				<img src="images/goods2.jpg">
+				 Hipp 喜宝 有机益生菌奶粉 5段/2+段 600g/盒
+			</td>
+			<td class="goods_info1">1.95kg</td>
+			<td class="goods_info1">￥326.0</td>
+			<td class="goods_info1">1</td>
+			<td class="goods_info1"></td>
+		</tr>
+		</table>
+		<hr class="light2"/>
+		<div class="bill">
+			<span class="pay">￥503.00</span><span class="bill">商品总价:</span><br>
+			<span class="pay">-￥0.00</span><span class="bill">活动优惠:</span><br>
+			<span class="pay">￥0.00</span><span class="bill">运费:</span><br>
+			<span class="pay">￥50.30</span><span class="bill">关税:</span><br>
+			<span class="pay1">￥553.30</span><span class="bill">实付款:</span>
+			
+		</div>
+		
+	</div>
+	
+
+</div>
+<!--主体结束-->
+<br>
+<br>
+<!--正港退闪-->
+<hr id="long"/>
+<div class="four">
+	<div class="one">
+		<li><img src="images/zheng.jpg"></li>
+		<li>
+			<h3 >100%自营正品</h3>
+			<p>官方自营 正品保障</p>
+		</li>
+		<li><span></span></li>
+		<li><img src="images/gang.jpg"></li>
+		<li>
+			<h3 >100%海外直采</h3>
+			<p>全球尖货 产地直采</p>
+		</li>
+		<li><span></span></li>
+		<li><img src="images/tui.jpg"></li>
+		<li>
+			<h3 >7天无忧退货</h3>
+			<p>国内退货 售后无忧</p>
+		</li>
+		<li><span></span></li>
+		<li><img src="images/shan.jpg"></li>
+		<li>
+			<h3 >全新海淘模式</h3>
+			<p>极速清关 政府监督</p>
+		</li>
+	</div>
+	
+</div>
+
+<div id="foot">
+	<hr/>
+	<ul>
+		<li id="phonenumber">
+			<h2 class="phone">400-883-1023</h2><hr class="cu"/>
+			<p class="time">周一至周五09:00-23:00</p>
+		</li>
+		<li id="about">
+			<h3>服务保障</h3>
+			<ul id="ad">自营正品</ul>
+			<ul id="ad">海外直邮</ul>
+			<ul id="ad">无忧退货</ul>
+		</li>
+		<li id="about">
+			<h3>新手指南</h3>
+			<ul id="ad">购物流程</ul>
+			<ul id="ad">支付方式</ul>
+			<ul id="ad">通关关税</ul>
+			<ul id="ad">常见问题</ul>
+			
+		</li>
+		<li id="about">
+			<h3>售后服务</h3>
+			<ul id="ad">退货政策</ul>
+			<ul id="ad">退货流程</ul>
+			<ul id="ad">退货说明</ul>
+			<ul id="ad">联系客服</ul>
+			
+		</li>
+		<li id="about">
+			<h3>物流配送</h3>
+			<ul id="ad">配送方式</ul>
+			<ul id="ad">运费计算</ul>
+			<ul id="ad">物流追踪</ul>			
+		</li>
+		<li id="aboutus">
+			<h3>关于我们</h3>
+			<ul id="ad">网站简介</ul>
+			<ul id="ad">联系我们</ul>
+			<ul id="ad">招商合作</ul>			
+		</li>
+		<li id="QRCode">
+			<img src="images/QRCode.jpg">
+			<p>自由购微信二维码</p>
+			
+		</li>
+	</ul>
+	
+		
+</div>
+
+<div id="deep">
+	<hr/>
+	<span>版权所有@飞购控股有限公司 www.freegou.com</span>
+	
+</div>
+</body>
+</html>

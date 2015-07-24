@@ -1,0 +1,500 @@
+img{
+	vertical-align:text-top;
+}
+li{
+	list-style: none;
+	float: left;
+
+}
+body{
+	margin: 0px;
+}
+/*顶部*/
+#top{
+	background-color:#f3f3f3;
+	height:27px;
+	width:1366px;
+	font-family:"Microsoft Yahei"; 
+
+
+}
+#top div{
+	color:#666666;
+	font-size:10px;
+	position: absolute;
+	width: 340px;
+	margin-left: 250px;
+	line-height: 25px;
+	line-height: 30px\9;
+	_margin-top: 5px;
+}
+#top div.right{
+	color:#666666;
+	font-size:10px;
+	position: absolute;
+	width:340px;
+	margin-left: 800px;
+	line-height: 25px;
+	line-height: 30px\9;
+	_margin-top: 5px;
+}
+#top span{
+	margin:5px
+}
+/*LOGO*/
+#icon{
+	background-color:#ffffff;
+	padding-left: 220px;
+	height: 97px;
+	width: 1000px;
+}
+#logo{
+	position: relative;
+	top: 15px;
+	width: 208px;
+	height: 49px;
+	border: 0px;
+
+
+}
+#register{
+	position: relative;
+	left: 140px;
+	width: 320px;
+	height: 65px;
+	top: 8px;
+	border: 0px; 
+
+}
+#shop_car{
+	background-color: #f3f3f3;
+	position: relative;
+	width: 170px;
+	height: 47px;
+	border: 0px;
+	left: 800px;
+	top: -40px;
+}
+#car_word{
+	position: relative;
+	left: 15px;
+	top: 12px;
+	font-size: 10px;
+
+}
+#car{
+	position: relative;
+	left: 18px;
+	top: 4px;
+
+}
+#number{
+	color: red;
+	font-weight: bold;
+	font-size: 14px;
+	position: relative;
+	left:8px;
+	top:0px;
+
+}
+/*菜单*/
+#menu{
+	background-color: #34363d;
+	height: 47px;
+	width: 1366px;
+	top:125px;
+	line-height: 15px;
+	_line-height: 45px;
+
+
+}
+#menu li{
+	color: white;
+	font-family: "Microsoft Yahei";
+}
+#menu ul{
+	position: absolute;
+	left: 150px;
+
+}
+#menu span{
+	margin: 30px;
+}
+img.icon{
+	width: 47px;
+	padding-left: 18px;
+	position: relative;
+	left:0px;
+	top:-12px;
+	_top:0px;
+
+}
+img.icon1{
+	width: 47px;
+	position: relative;
+	top: -16px;
+	_top:0px;
+
+}
+/*Four 正港退闪*/
+div.four{
+	margin-left: 200px;
+	width: 1000px;
+}
+div.one{
+	width: 1000px;
+	overflow: hidden;
+}
+div.four p{
+	font-family: "Microsoft Yahei";
+	color:#939397;
+	width: 108px;
+	height: 17px;
+	font-size: 13px;
+	margin-top: -5px;
+	margin-left: 13px;
+
+}
+div.four h3{
+	position: relative;
+	top: 15px;
+	
+}
+div.four span{
+	margin:42.5px;
+}
+/*foot*/
+
+#foot{
+	width: 1000px;
+	height: 250px;
+	padding-left: 200px;
+	clear: both;
+
+}
+hr.cu{
+	height:3px;
+	background-color:#666666;
+	position: relative;
+	top: -20px;
+	_top:0px;
+	width: 150px;
+	_width:160px;
+	left: -24px;
+	_left:-20px;
+
+}
+#phonenumber{
+	width: 200px;
+	height: 120px;
+	position: relative;
+	top: 25px;
+	left: 0px;
+	border-right-style: solid;
+	border-right-width: 2px;
+}
+p.time{
+	font-family: "Microsoft Yahei";
+	font-size: 14px;
+	position: relative;
+	top: -30px;
+	_top:-20px;
+
+}
+h2.phone{
+	position: relative;
+	top: 0px;
+	_top:20px;
+}
+#about{
+	position: relative;
+	width: 110px;
+	height: 120px;
+	margin:0px;
+	top: 25px;
+	border-right-style: solid;
+	border-right-width: 2px;
+
+}
+#aboutus{
+	position: relative;
+	width: 110px;
+	height: 120px;
+	margin:0px;
+	top: 25px;
+
+}
+
+h3{	position: relative;
+	left: 10px;
+	margin-top: 0px;
+	font-size: 20px\9;
+}
+#ad{
+	font-family: "Microsoft Yahei";
+	font-size: 14px;
+	position: relative;
+	top: -10px;
+	left: -30px;
+	width: 80px;
+	line-height: 20px;
+}
+#QRCode{
+	position: relative;
+	top: 25px;
+	left: 50px;
+}
+#QRCode p{
+	font-family: "Microsoft Yahei";
+	font-size: 10px;
+	background-color: #f3f3f3;
+	_width: 80px;
+	_margin-left: 5px;
+	margin-top: 5px;
+	margin-left: 5px\9;
+}
+/*底部*/
+
+#deep{
+	width: 1366px;
+	height: 100px;
+	font-size: 6px;
+	font-family: "Microsoft Yahei";
+	clear: both;
+
+}
+#deep span{
+	position: relative;
+	left: 550px;
+	top: 35px;
+	_font-size: 12px;
+	font-size: 12px\9;
+}
+
+/*主体*/
+#orderlist{
+	margin-top: 20px;
+	margin-left: 200px;
+
+}
+div.condition{
+	width: 900px;
+	background-color:#f3f3f3; 
+}
+#orderlist h3{
+	padding-top: 15px;	
+}
+#orderlist p{
+	padding-top: 10px;
+	padding-left: 25px;
+	font-family: "Microsoft Yahei";
+}
+#orderlist img{
+	width: 30px;
+	margin-left: 40px;
+	position: relative;
+	top:-10px;
+}
+div.condition span{
+	font-weight: bold;
+	position: relative;
+	top: 30px;
+}
+span.countdown{
+	margin-left: 40px;
+	font-family: "Microsoft Yahei";
+	font-size: 14px;
+
+}
+span.countdown1{
+	font-family: "Microsoft Yahei";
+	font-size: 14px;
+
+}
+span.deadline{
+	color: red;
+}
+#b1{
+	margin-top: 45px;
+	margin-left: 40px;
+	margin-bottom: 25px;
+	width: 100px;
+	height: 30px;
+	border:0px;	
+	background-color: #f3f3f3;
+	color:#666666;
+	font-weight: bold;
+}
+#b2{
+	margin-top: 45px;
+	margin-left: 40px;
+	margin-bottom: 25px;
+	width: 100px;
+	height: 30px;
+	border:0px;	
+	background-color: #f3f3f3;
+	color:#666666;
+	font-weight: bold;
+}
+/*主题第二部分 订单信息*/
+
+#orderinfo{
+	margin-top: 30px;
+	width: 900px;
+}
+
+div.info{
+	width: 900px;
+	background-color: #f3f3f3;
+	height: 50px;
+	border-top:2px solid black;
+	border-bottom: 3px solid #dedede;
+}
+#dingdan{
+	margin-left: 40px;
+	position: relative;
+	top:20px;
+	font-weight: bold;
+}
+hr.light{
+	background-color: #dedede;
+	width: 900px;
+	margin: 0px;
+
+}
+div.orderstyle{
+	height: 50px;
+	border: 0px;
+}
+span.infostyle{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	margin-left: 40px;
+	position: relative;
+	top: 15px;
+
+}
+/*物流信息*/
+#logistics{
+	margin-top: 50px;
+	border:1px solid #dedede;
+	width: 900px;
+}
+p.logistics{
+	margin-left: 15px;
+}
+div.info2{
+	width: 900px;
+	background-color: #f3f3f3;
+	height: 50px;
+}
+span.fenge{
+	margin:30px;
+}
+div.logisticsNo{
+	margin-left: 40px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+
+}
+span.No{
+	margin-left: 40px;
+}
+#ie8{
+	margin-left: 0px\9;
+}
+/*商品信息*/
+hr.light2{
+	margin:0px;
+	padding:0px;
+
+}
+ul.goodsinfo{
+	margin:0px;
+}
+td.goods{
+	width: 500px;
+	text-align: center;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+	font-size: 14px; 
+	background-color: #dedede;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+td.goods_info{
+	width: 100px;
+	text-align: center;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #dedede;
+	padding-top: 10px;  
+	padding-bottom: 10px;
+}
+table{
+	border-spacing: 0px;
+	border-collapse:collapse;
+}
+table.info{
+	height: 100px;
+}
+td.goods1{
+	width: 500px;
+	text-align: left;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+	font-size: 14px; 
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+td.goods_info1{
+	width: 100px;
+	text-align: center;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+	font-size: 14px;
+	background-color: white;
+	padding-top: 10px;  
+	padding-bottom: 10px;
+}
+div.bill{
+	background-color:#dedede;
+	height: 170px;
+
+}
+span.bill{
+	float: right;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+	font-size: 15px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+span.pay{
+	float: right;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-right: 25px;
+	padding-right: 0px;
+	text-align: right;
+	width: 80px;
+	clear: both;
+}
+span.pay1{
+	float: right;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+	font-size: 15px;
+	clear: both;
+	color: red;
+	width: 80px;
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 25px;
+}
